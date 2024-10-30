@@ -1,0 +1,72 @@
+.but{
+    background: transparent;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: #fff4f2;
+}
+.active{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #49557e;
+}
+@media (max-width:1050px) {
+    .logoimg{
+        width: 140px;
+    }
+    .navmenux{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navr{
+        gap: 30px;
+    }
+    .navr img{
+        width: 22px;
+    }
+    .navr button{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .logoimg{
+        width: 120px;
+    }
+    .navmenux{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navr{
+        gap: 20px;
+    }
+    .navr img{
+        width: 20px;
+    }
+    .navr button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:780px) {
+    .logoimg{
+        width: 70px;
+    }
+    .navmenux{
+        display: none !important;
+    }
+    .navr{
+        gap: 10px;
+    }
+    .navr img{
+        width: 15px;
+    }
+    .navr button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
